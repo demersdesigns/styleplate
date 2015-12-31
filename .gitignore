@@ -1,0 +1,6 @@
+npm-debug.log
+/node_modules
+/target
+/dist
+/assets/css
+/assets/index.html

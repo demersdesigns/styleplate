@@ -1,0 +1,43 @@
+// Other Buttons
+//
+// This is an example file to show the styleguide
+// functionality.
+//
+// :hover - State: Hovered
+// :active - State: Active
+// .btn-medium - Size: Medium
+// .btn-large - Size: Large
+//
+// Markup: other-buttons.html
+//
+// Styleguide 2
+
+.other-button {
+  background: red;
+  border: 2px solid red;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 0.75em;
+  padding: 1em;
+  text-decoration: none;
+
+  &:hover {
+    background: #fff;
+    color: red;
+  }
+
+  &:active {
+    background: #fff;
+    border-color: red;
+    color: red;
+  }
+
+  &.btn-medium {
+    font-size: 1.25em;
+  }
+
+  &.btn-large {
+    font-size: 2em;
+  }
+
+}

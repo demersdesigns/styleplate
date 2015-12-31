@@ -1,0 +1,27 @@
+{
+  "name": "@demersdesigns/styleplate",
+  "version": "0.1.0",
+  "description": "A sensible living styleguide solution built on kss and gulp",
+  "main": "assets/sass/style.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demersdesigns/styleplate.git"
+  },
+  "author": "@demersdesigns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demersdesigns/styleplate/issues"
+  },
+  "homepage": "https://github.com/demersdesigns/styleplate",
+  "dependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.1.1",
+    "kss": "^2.3.1",
+    "normalize.css": "^3.0.3"
+  }
+}
