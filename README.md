@@ -43,13 +43,14 @@ You can learn about the syntax and how it works by looking at the [KSS syntax](h
 You can now add as many stylesheet/markup examples as necessary for your project. The project will reload the browser when changes are made, so you can instantly see your progress.
 
 ## Including as a dependency on another project
-You can easily add styleplate to it's companion project [baseplate](https://github.com/demersdesigns/baseplate) or even to another project with some minor handiwork. In short, this project is on NPM and can be included as a dependency in the package.json of an your existing project.
+You can easily use styleplate alongside it's companion project [baseplate](https://github.com/demersdesigns/baseplate) or even with another project with some minor handiwork.
 
-Here is what should be included in your package.json in order to pull the project into your node_modules folder:
+Once you have built out your living styleguide, you can use the npm link function to add the styleplate files to the node_modules folder of the project that you want to use it in. Here is an example:
 ```
-"devDependencies": {
-    "@demersdesigns/styleplate": "0.1.0"
-  }
+$ cd [styleplate project folder]
+$ npm link
+$ cd [existing project folder]
+$ npm link @demersdesigns/styleplate
 ```
 
 This enables you to include the scss files that you have created in your styleguide in your project's main stylesheet like so:
