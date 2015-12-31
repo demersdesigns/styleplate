@@ -55,3 +55,8 @@ $ npm link @demersdesigns/styleplate
 
 This enables you to include the scss files that you have created in your styleguide in your project's main stylesheet like so:
 `@import "../node_modules/styleplate/sass/buttons/buttons";`
+
+Please note that any changes you make to the styleguide after you have linked it to your projet will require you to run 
+```
+$ npm link @demersdesigns/styleplate
+```
