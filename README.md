@@ -18,7 +18,7 @@ sass/
     buttons.html
 ```
 
-Newly added scss files should be included in the style.scss file in order for them to be compiled. Each scss file should include kss syntax at the top that will enable it to be picked up by the styleguide. Here is an example of the expected format from the [kss-node](https://github.com/kss-node/kss-node) repository:
+Newly added scss files should be included in the `style.scss` file in order for them to be compiled. Each scss file should include kss syntax at the top that will enable it to be picked up by the styleguide. Here is an example of the expected format from the [kss-node](https://github.com/kss-node/kss-node) repository:
 ```scss
 // Button
 //
